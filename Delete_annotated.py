@@ -1,7 +1,7 @@
 import os
 
 # Base evidence folder path
-evidence_folder = r"D:\Saniyat\Saniyat_s CODE\KYC Automation FLASK\evidence"
+evidence_folder = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence"
 
 # Navigate through each folder in the evidence directory
 for folder_name in os.listdir(evidence_folder):

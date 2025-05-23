@@ -1,2 +1,0 @@
-# KYC-Automation-by-YOLO
-

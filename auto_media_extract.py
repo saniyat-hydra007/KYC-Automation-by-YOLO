@@ -73,7 +73,7 @@ def get_media(session_id, email):
     logging.info(f"Attempting to fetch media for email {email} with session ID {session_id}")
 
     # Check if folder for the email already exists
-    base_folder = "KYC_v1"
+    base_folder = "KYC"
     folder_path = os.path.join(base_folder, email)
     if os.path.exists(folder_path):
         logging.info(f"Folder for email {email} already exists. Skipping session.")

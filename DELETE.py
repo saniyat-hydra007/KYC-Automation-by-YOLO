@@ -3,16 +3,16 @@ import shutil
 
 # List of paths to delete (including the new log file)
 paths_to_delete = [
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation FLASK\evidence",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation FLASK\KYC",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation FLASK\evidence_status_updated_hand_feet.csv",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation FLASK\evidence_status_updated.csv",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation FLASK\evidence_status.csv",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation FLASK\KYC Video Verdict.csv",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation FLASK\validation_result.csv",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation FLASK\app_execution.log",  # Newly added log file
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation FLASK\evidence_status_updated_version.csv",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation FLASK\logs\processing_log.txt"
+    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence",
+    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\KYC",
+    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence_status_updated_hand_feet.csv",
+    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence_status_updated.csv",
+    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence_status.csv",
+    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\KYC Video Verdict.csv",
+    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\validation_result.csv",
+    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\app_execution.log",  # Newly added log file
+    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence_status_updated_version.csv",
+    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\logs\processing_log.txt"
 ]
 
 def delete_paths(path_list):
