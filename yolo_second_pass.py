@@ -8,7 +8,7 @@ from ultralytics import YOLO
 # Paths
 evidence_folder = r"/home/ubuntu/KYC-Automation-by-YOLO/evidence"
 output_csv = r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status.csv"
-verdict_csv = r"/home/ubuntu/KYC-Automation-by-YOLO/KYC Video Verdict.csv"
+verdict_csv = r"/home/ubuntu/KYC-Automation-by-YOLO/KYC_Video_Verdict.csv"
 
 # Load YOLO model for bounding box detection
 model = YOLO('yolov8n.pt').cuda()

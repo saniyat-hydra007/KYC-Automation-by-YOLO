@@ -8,7 +8,7 @@ paths_to_delete = [
     r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status_updated_hand_feet.csv",
     r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status_updated.csv",
     r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status.csv",
-    r"/home/ubuntu/KYC-Automation-by-YOLO/KYC Video Verdict.csv",
+    r"/home/ubuntu/KYC-Automation-by-YOLO/KYC_Video_Verdict.csv",
     r"/home/ubuntu/KYC-Automation-by-YOLO/validation_result.csv",
     r"/home/ubuntu/KYC-Automation-by-YOLO/app_execution.log",  # Newly added log file
     r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status_updated_version.csv",

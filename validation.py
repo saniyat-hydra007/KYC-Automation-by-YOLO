@@ -12,7 +12,7 @@ db_params = {
 }
 
 # Paths
-kyc_csv_path = r"/home/ubuntu/KYC-Automation-by-YOLO/KYC Video Verdict.csv"
+kyc_csv_path = r"/home/ubuntu/KYC-Automation-by-YOLO/KYC_Video_Verdict.csv"
 output_csv_path = r"/home/ubuntu/KYC-Automation-by-YOLO/validation_result.csv"
 
 # Load the existing KYC Video Verdict CSV

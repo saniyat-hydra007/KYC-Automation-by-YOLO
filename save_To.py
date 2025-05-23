@@ -2,8 +2,8 @@ import pandas as pd
 
 # Paths to input and output CSV files
 evidence_status_csv = "evidence_status_updated_version.csv"
-kyc_verdict_csv = "KYC Video Verdict.csv"
-output_csv = "KYC Video Verdict.csv"
+kyc_verdict_csv = "KYC_Video_Verdict.csv"
+output_csv = "KYC_Video_Verdict.csv"
 
 # Read the CSV files
 evidence_df = pd.read_csv(evidence_status_csv)

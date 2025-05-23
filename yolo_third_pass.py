@@ -8,7 +8,7 @@ from datetime import datetime
 
 # Paths
 evidence_folder = r"/home/ubuntu/KYC-Automation-by-YOLO/evidence"
-kyc_verdict_csv = r"/home/ubuntu/KYC-Automation-by-YOLO/KYC Video Verdict.csv"
+kyc_verdict_csv = r"/home/ubuntu/KYC-Automation-by-YOLO/KYC_Video_Verdict.csv"
 input_csv = r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status.csv"
 output_csv = r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status_updated_version.csv"
 log_file_path = r"/home/ubuntu/KYC-Automation-by-YOLO/logs/processing_log.txt"

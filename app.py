@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 # Paths for CSV and folders
 BASE_DIR = r"/home/ubuntu/KYC-Automation-by-YOLO"
-CSV_PATH = os.path.join(BASE_DIR, "KYC Video Verdict.csv")
+CSV_PATH = os.path.join(BASE_DIR, "KYC_Video_Verdict.csv")
 
 # Set up logging
 logging.basicConfig(filename=os.path.join(BASE_DIR, 'app_execution.log'), level=logging.INFO, format='%(asctime)s - %(message)s')
