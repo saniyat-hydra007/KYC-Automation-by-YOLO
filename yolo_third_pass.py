@@ -7,11 +7,11 @@ from ultralytics import YOLO
 from datetime import datetime
 
 # Paths
-evidence_folder = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence"
-kyc_verdict_csv = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\KYC Video Verdict.csv"
-input_csv = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence_status.csv"
-output_csv = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence_status_updated_version.csv"
-log_file_path = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\logs\processing_log.txt"
+evidence_folder = r"/home/ubuntu/KYC-Automation-by-YOLO/evidence"
+kyc_verdict_csv = r"/home/ubuntu/KYC-Automation-by-YOLO/KYC Video Verdict.csv"
+input_csv = r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status.csv"
+output_csv = r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status_updated_version.csv"
+log_file_path = r"/home/ubuntu/KYC-Automation-by-YOLO/logs/processing_log.txt"
 
 # Ensure the logs directory exists
 log_dir = os.path.dirname(log_file_path)

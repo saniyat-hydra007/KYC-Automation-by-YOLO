@@ -3,16 +3,16 @@ import shutil
 
 # List of paths to delete (including the new log file)
 paths_to_delete = [
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\KYC",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence_status_updated_hand_feet.csv",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence_status_updated.csv",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence_status.csv",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\KYC Video Verdict.csv",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\validation_result.csv",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\app_execution.log",  # Newly added log file
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence_status_updated_version.csv",
-    r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\logs\processing_log.txt"
+    r"/home/ubuntu/KYC-Automation-by-YOLO/evidence",
+    r"/home/ubuntu/KYC-Automation-by-YOLO/KYC",
+    r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status_updated_hand_feet.csv",
+    r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status_updated.csv",
+    r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status.csv",
+    r"/home/ubuntu/KYC-Automation-by-YOLO/KYC Video Verdict.csv",
+    r"/home/ubuntu/KYC-Automation-by-YOLO/validation_result.csv",
+    r"/home/ubuntu/KYC-Automation-by-YOLO/app_execution.log",  # Newly added log file
+    r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status_updated_version.csv",
+    r"/home/ubuntu/KYC-Automation-by-YOLO/logs/processing_log.txt"
 ]
 
 def delete_paths(path_list):

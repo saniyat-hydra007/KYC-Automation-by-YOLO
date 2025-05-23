@@ -6,9 +6,9 @@ from deepface import DeepFace
 from ultralytics import YOLO
 
 # Paths
-evidence_folder = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence"
-output_csv = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence_status.csv"
-verdict_csv = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\KYC Video Verdict.csv"
+evidence_folder = r"/home/ubuntu/KYC-Automation-by-YOLO/evidence"
+output_csv = r"/home/ubuntu/KYC-Automation-by-YOLO/evidence_status.csv"
+verdict_csv = r"/home/ubuntu/KYC-Automation-by-YOLO/KYC Video Verdict.csv"
 
 # Load YOLO model for bounding box detection
 model = YOLO('yolov8n.pt').cuda()

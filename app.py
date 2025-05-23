@@ -13,7 +13,7 @@ import threading
 app = Flask(__name__)
 
 # Paths for CSV and folders
-BASE_DIR = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST"
+BASE_DIR = r"/home/ubuntu/KYC-Automation-by-YOLO"
 CSV_PATH = os.path.join(BASE_DIR, "KYC Video Verdict.csv")
 
 # Set up logging

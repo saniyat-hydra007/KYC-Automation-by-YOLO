@@ -15,11 +15,11 @@ print(torch.cuda.get_device_name(0))
 model = YOLO('yolov8n.pt').cuda()
 
 # Base KYC folder path
-kyc_folder = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\KYC"
-evidence_base_folder = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\evidence"
+kyc_folder = r"/home/ubuntu/KYC-Automation-by-YOLO/KYC"
+evidence_base_folder = r"/home/ubuntu/KYC-Automation-by-YOLO/evidence"
 
 # Load the CSV file
-csv_path = r"D:\Saniyat\Saniyat_s CODE\KYC Automation TEST\KYC Video Verdict.csv"
+csv_path = r"/home/ubuntu/KYC-Automation-by-YOLO/KYC Video Verdict.csv"
 kyc_verdict_df = pd.read_csv(csv_path)
 
 def is_document_image(frame, box, min_area=1000, aspect_ratio_range=(0.7, 1.5), uniformity_threshold=5.0, text_threshold=0.35):
