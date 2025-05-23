@@ -96,4 +96,4 @@ def index():
 if __name__ == '__main__':
     # Start the browser a little after the server starts
     # threading.Timer(1.25, open_browser).start()
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5050, debug=True)
